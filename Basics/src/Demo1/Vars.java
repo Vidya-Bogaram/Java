@@ -1,11 +1,11 @@
-package Variables;
+package Demo1;
 
 public class Vars {
 	
 	static int num1 = 10; //static variables
 	static int num2 = 20;
 	
-	private static int add(int a , int b) {
+	 static int add(int a , int b) {
 		// TODO Auto-generated method stub
 		int sum = a + b; // local variable
 		System.out.println("Local variable sum : " + '\n'  +sum);
